@@ -10,7 +10,7 @@ const AuthPage = () => {
                     <Box display={{base:"none", md:"block"}}>
                         <Image src="assets/auth.png" h={650} alt='Phone img' />
                     </Box>
-                    <VStack spacing={4} align={"stretch"}/> 
+                    <VStack spacing={4} align={"stretch"}> 
                         <AuthForm />
                         <Box textAlign={"center"}>Get the app. </Box>
                         <Flex gap={5} justifyContent={"center"}>
@@ -18,7 +18,7 @@ const AuthPage = () => {
                             <Image src='assets/microsoft.png' h={"10"} alt='Microsoft logo' />
 
                         </Flex>
-                    <VStack />     
+                    </VStack>     
                 </Flex>           
             </Container>
         </Flex>
